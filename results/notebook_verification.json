@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "executed_code_cells": 22,
+  "embedded_notebook_figures": 6,
+  "notebook_errors": 0,
+  "report_embedded_figures": 6,
+  "default_uses_prepared_inputs": true,
+  "notebook_sha256": "147499ccb6c1bec4cbd94a7f6c856bd6f9d5ff54b1a133952482f1d242c188e8",
+  "portability_note": "Portable data/raw source configuration; all 22 code cells rerun successfully from the upload copy using only its prepared inputs."
+}

@@ -1,0 +1,9 @@
+{
+  "raw_station_records": 1002,
+  "line18_records_removed": 4,
+  "unique_station_records": 998,
+  "retrieved": "2026-11-10",
+  "source": "https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf-data-generalisee/",
+  "metro_stations": 321,
+  "rer_stations": 239
+}

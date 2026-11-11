@@ -1,0 +1,10 @@
+{
+  "quoted_nightly_price_benchmark_eur": 143.57872715325257,
+  "annual_gross_scenarios_eur": {
+    "Central utilisation": 8612.108231541415,
+    "Higher utilisation": 11195.740701003839,
+    "Lower utilisation": 6028.475762078991
+  },
+  "cash_flow_available": false,
+  "status": "Exploratory benchmark from September 2026 quotes. Revenue depends on user assumptions, not observed bookings."
+}

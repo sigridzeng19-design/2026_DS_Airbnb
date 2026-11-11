@@ -1,0 +1,116 @@
+{
+  "listing_rows": 77149,
+  "listing_fields_in_source": 90,
+  "review_rows_raw": 2503875,
+  "snapshot_start": "2026-09-17",
+  "snapshot_end": "2026-09-24",
+  "review_date_min": "2010-01-26",
+  "review_date_max": "2026-09-22",
+  "review_orphan_rows": 0,
+  "ambiguous_review_ids": 13241,
+  "ambiguous_review_rows_excluded": 42347,
+  "same_listing_duplicate_rows_removed": 0,
+  "reviews_after_own_scrape_excluded": 0,
+  "review_rows_clean": 2461528,
+  "quote_currency_counts": {
+    "EUR": 43687,
+    "missing": 33462
+  },
+  "price_missing_rows": 33612,
+  "price_missing_fraction": 0.4356764183592788,
+  "room_types": {
+    "Entire home/apt": 68333,
+    "Private room": 8280,
+    "Hotel room": 386,
+    "Shared room": 150
+  },
+  "quote_checkin_min": "2026-09-17",
+  "quote_checkin_max": "2027-09-20",
+  "source_files": [
+    {
+      "path": "data/raw/listings.csv",
+      "bytes": 180515904,
+      "sha256": "70e1131d63b357fd3b92321b51429808bb69d795d2884ca6da6b9d0275d86a4e"
+    },
+    {
+      "path": "data/raw/reviews.csv",
+      "bytes": 817841060,
+      "sha256": "8f1045c3488db1c2cb89efb1bc4c2141c6e2153e05e36bd00b6ec2d73934b662"
+    }
+  ],
+  "price_sample_funnel": {
+    "all_listings": 77149,
+    "entire_homes": 68333,
+    "minimum_stay_1_to_29": 53472,
+    "observed_eur_price": 32415,
+    "price_20_to_1000_eur": 31044,
+    "final_model_sample": 31044
+  },
+  "price_sample_median_eur": 244.0,
+  "price_sample_hosts": 22106,
+  "price_sample_quote_month_counts": {
+    "2026-09": 11502,
+    "2026-10": 10686,
+    "2026-11": 2623,
+    "2026-12": 1720,
+    "2027-01": 2088,
+    "2027-02": 584,
+    "2027-03": 384,
+    "2027-04": 309,
+    "2027-05": 330,
+    "2027-06": 254,
+    "2027-07": 291,
+    "2027-08": 167,
+    "2027-09": 106
+  },
+  "review_panel": {
+    "population": "Current-snapshot listings with a review before training start; all room types",
+    "eligible_listings": 41983,
+    "sample_listings": 12000,
+    "rows": 288000,
+    "train_months": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_months": [
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "test_months": [
+      "2026-06",
+      "2026-07",
+      "2026-08"
+    ],
+    "last_complete_month": "2026-08",
+    "zero_target_share": 0.7186145833333333
+  },
+  "seasonality": {
+    "start": "2025-09",
+    "end": "2026-08",
+    "cohort_listings": 50829,
+    "interpretation": "One realized year of reviews among surviving established listings; scenario weight only."
+  },
+  "price_deployment_feature_set": "location",
+  "package_versions": {
+    "pandas": "3.0.0",
+    "numpy": "2.4.2",
+    "scikit-learn": "1.9.1"
+  }
+}

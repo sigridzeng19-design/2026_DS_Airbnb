@@ -1,0 +1,19 @@
+# Local environments and notebook checkpoints
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.part
+
+# Large public raw inputs: retrieved by the notebook when rebuilding
+/data/raw/
+/data/insideairbnb/listings_[0-9][0-9][0-9][0-9]-*.csv.gz
+/data/insideairbnb/reviews_[0-9][0-9][0-9][0-9]-*.csv.gz
+/data/insideairbnb/calendar_[0-9][0-9][0-9][0-9]-*.csv.gz
+
+# Local secrets
+.env
+.env.*

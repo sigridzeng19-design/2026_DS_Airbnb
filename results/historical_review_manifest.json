@@ -1,0 +1,34 @@
+[
+  {
+    "snapshot": "2025-12-13",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2025-12-13/data/reviews.csv.gz",
+    "local_file": "data/insideairbnb/reviews_2025-12-13.csv.gz",
+    "bytes": 306637457,
+    "sha256": "77984840ae634ce97b9ac4ce64dc510e7c0f4d869c6ee3e7c318881c7a4aa476",
+    "retrieval": "2026-11-11"
+  },
+  {
+    "snapshot": "2026-03-21",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-03-21/data/reviews.csv.gz",
+    "local_file": "data/insideairbnb/reviews_2026-03-21.csv.gz",
+    "bytes": 217252986,
+    "sha256": "d11f658d7e339bc9a2f6a068ae7d050a23fca428b74ac4c377cffaac5b9ba457",
+    "retrieval": "2026-11-11"
+  },
+  {
+    "snapshot": "2026-06-16",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-06-16/data/reviews.csv.gz",
+    "local_file": "data/insideairbnb/reviews_2026-06-16.csv.gz",
+    "bytes": 321538822,
+    "sha256": "d3a13bdb987d418517bce90bc539e1105a016ef325c1a27ac0ccd8a26fe08868",
+    "retrieval": "2026-11-11"
+  },
+  {
+    "snapshot": "2026-09-16",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-09-16/data/reviews.csv.gz",
+    "local_file": "data/raw/reviews.csv",
+    "bytes": 817841060,
+    "sha256": "8f1045c3488db1c2cb89efb1bc4c2141c6e2153e05e36bd00b6ec2d73934b662",
+    "retrieval": "user-supplied"
+  }
+]

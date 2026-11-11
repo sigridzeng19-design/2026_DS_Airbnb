@@ -1,0 +1,14 @@
+{
+  "description": "Illustrative assumptions only. These are not the user's operating plan and are not fitted occupancy forecasts. Replace before personalized use.",
+  "start_month": "2026-12",
+  "open_nights_by_month": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+  "occupancy_scenarios": {"Lower utilisation": 0.35, "Central utilisation": 0.5, "Higher utilisation": 0.65},
+  "realised_price_multiplier": 1.0,
+  "annual_booked_night_budget": null,
+  "variable_cost_rate": null,
+  "fixed_cost_per_month_eur": null,
+  "financing_cash_per_month_eur": null,
+  "initial_cash_investment_eur": null,
+  "capacity_note": "Open nights are an operating assumption, not a statement of legal eligibility or an applicable rental limit.",
+  "seasonality_note": "The latest complete year's daily review pattern weights monthly occupancy. It is a scenario assumption, not calibrated occupancy seasonality."
+}

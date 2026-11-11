@@ -1,0 +1,99 @@
+{
+  "snapshots": [
+    {
+      "snapshot": "2025-12-13",
+      "listings": 82045,
+      "collection_start": "2025-12-13",
+      "collection_end": "2026-01-05",
+      "missing_price_fraction": 1.0,
+      "quote_context_fields": false,
+      "unique_scrape_ids": [
+        "20251213062844"
+      ]
+    },
+    {
+      "snapshot": "2026-03-21",
+      "listings": 38075,
+      "collection_start": "2026-03-21",
+      "collection_end": "2026-04-02",
+      "missing_price_fraction": 0.055863427445830595,
+      "quote_context_fields": true,
+      "unique_scrape_ids": [
+        "20260321053428"
+      ]
+    },
+    {
+      "snapshot": "2026-06-16",
+      "listings": 77679,
+      "collection_start": "2026-06-17",
+      "collection_end": "2026-06-29",
+      "missing_price_fraction": 0.3768972309118295,
+      "quote_context_fields": true,
+      "unique_scrape_ids": [
+        "20260616211535"
+      ]
+    },
+    {
+      "snapshot": "2026-09-16",
+      "listings": 77149,
+      "collection_start": "2026-09-17",
+      "collection_end": "2026-09-24",
+      "missing_price_fraction": 0.4356764183592788,
+      "quote_context_fields": true,
+      "unique_scrape_ids": [
+        "20260916052215"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "earlier": "2025-12-13",
+      "later": "2026-03-21",
+      "earlier_listings": 82045,
+      "later_listings": 38075,
+      "seen_in_both": 34329,
+      "not_seen_later": 47716,
+      "not_seen_earlier": 3746,
+      "fraction_earlier_seen_later": 0.41841672253031875
+    },
+    {
+      "earlier": "2026-03-21",
+      "later": "2026-06-16",
+      "earlier_listings": 38075,
+      "later_listings": 77679,
+      "seen_in_both": 34285,
+      "not_seen_later": 3790,
+      "not_seen_earlier": 43394,
+      "fraction_earlier_seen_later": 0.9004596191726855
+    },
+    {
+      "earlier": "2026-06-16",
+      "later": "2026-09-16",
+      "earlier_listings": 77679,
+      "later_listings": 77149,
+      "seen_in_both": 71588,
+      "not_seen_later": 6091,
+      "not_seen_earlier": 5561,
+      "fraction_earlier_seen_later": 0.9215875590571454
+    }
+  ],
+  "calendar": {
+    "columns": [
+      "listing_id",
+      "date",
+      "available",
+      "minimum_nights",
+      "maximum_nights"
+    ],
+    "rows": 28162159,
+    "available_rows": 10573523,
+    "unknown_availability_rows": 0,
+    "unmatched_listing_rows": 0,
+    "date_min": "2026-09-17",
+    "date_max": "2027-09-23",
+    "has_price_columns": false,
+    "unique_listings": 77149,
+    "listings_without_calendar": 0,
+    "available_share": 0.37545143467161024
+  }
+}

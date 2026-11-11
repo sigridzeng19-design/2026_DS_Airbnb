@@ -1,0 +1,4 @@
+source_snapshot,followup_snapshot,target_month,split,source_listings,observable_outcomes,missing_followup_outcomes,mean_target_reviews_observed,source_capture_max,followup_capture_min
+2025-12-13,2026-03-21,2026-02,train,82045,34329,47716,0.8700224300154389,2026-01-05,2026-03-21
+2026-03-21,2026-06-16,2026-05,validation,38075,34285,3790,1.4820475426571387,2026-04-02,2026-06-17
+2026-06-16,2026-09-16,2026-07,test,77679,71588,6091,0.728250544784042,2026-06-29,2026-09-17

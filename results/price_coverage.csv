@@ -1,0 +1,5 @@
+room_type,listings,missing_price_fraction,median_price_eur
+Entire home/apt,68333,0.44198264381777475,226.0
+Hotel room,386,0.27979274611398963,337.9
+Private room,8280,0.39492753623188404,157.965
+Shared room,150,0.21333333333333335,58.0

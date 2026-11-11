@@ -1,0 +1,28 @@
+{
+  "validation_candidates": [
+    {
+      "max_leaf_nodes": 8,
+      "mae_reviews": 0.4685862795165651
+    },
+    {
+      "max_leaf_nodes": 20,
+      "mae_reviews": 0.46396750094776495
+    }
+  ],
+  "selected_max_leaf_nodes": 20,
+  "features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_6",
+    "lag_12",
+    "mean_3",
+    "mean_6",
+    "mean_12",
+    "active_months_12",
+    "months_since_first_review",
+    "month_sin",
+    "month_cos"
+  ],
+  "quarter_origin": "2026-06"
+}

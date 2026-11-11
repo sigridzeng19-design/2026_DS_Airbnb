@@ -1,0 +1,16 @@
+[
+  {
+    "protocol": "host_holdout",
+    "train_rows": 24821,
+    "test_rows": 6223,
+    "test_hosts": 4422,
+    "host_overlap": 0
+  },
+  {
+    "protocol": "spatial_holdout",
+    "train_rows": 19157,
+    "test_rows": 7002,
+    "test_hosts": 5263,
+    "host_overlap": 0
+  }
+]

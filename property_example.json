@@ -1,0 +1,16 @@
+{
+  "note": "Fictional example for testing the input interface. Replace all fields for your own property. Entire home/apt only.",
+  "latitude": 48.875,
+  "longitude": 2.38,
+  "neighbourhood_cleansed": "Buttes-Chaumont",
+  "property_type": "Entire rental unit",
+  "accommodates": 3,
+  "bedrooms": 1,
+  "beds": 2,
+  "bathrooms": 1,
+  "minimum_nights": 2,
+  "amenities": ["Wifi", "Kitchen", "Washer", "Heating", "Elevator"],
+  "quote_date": "2026-11-10",
+  "checkin_date": "2026-12-10",
+  "checkout_date": "2026-12-13"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "snapshot": "2025-12-13",
+    "kind": "listings",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2025-12-13/data/listings.csv.gz",
+    "local_file": "data/insideairbnb/listings_2025-12-13.csv.gz",
+    "bytes": 37726307,
+    "sha256": "68dc18495ecb3418a237b01d33eb040adcff567d81615c998e005df1288de887",
+    "retrieval": "2026-11-10"
+  },
+  {
+    "snapshot": "2026-03-21",
+    "kind": "listings",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-03-21/data/listings.csv.gz",
+    "local_file": "data/insideairbnb/listings_2026-03-21.csv.gz",
+    "bytes": 22379730,
+    "sha256": "330b06ac7ee9f7d490ec31d972b349bc504470139fe4d958af4369ff72e3a9a9",
+    "retrieval": "2026-11-10"
+  },
+  {
+    "snapshot": "2026-06-16",
+    "kind": "listings",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-06-16/data/listings.csv.gz",
+    "local_file": "data/insideairbnb/listings_2026-06-16.csv.gz",
+    "bytes": 41085418,
+    "sha256": "4482b7f73788a3623c3b9da34f6046a0b6b0ef5cc1be93bc9e38afe29cd75a90",
+    "retrieval": "2026-11-10"
+  },
+  {
+    "snapshot": "2026-09-16",
+    "kind": "listings",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-09-16/data/listings.csv.gz",
+    "local_file": "data/raw/listings.csv",
+    "bytes": 180515904,
+    "sha256": "70e1131d63b357fd3b92321b51429808bb69d795d2884ca6da6b9d0275d86a4e",
+    "retrieval": "user-supplied"
+  },
+  {
+    "snapshot": "2026-09-16",
+    "kind": "calendar",
+    "url": "https://data.insideairbnb.com/france/ile-de-france/paris/2026-09-16/data/calendar.csv.gz",
+    "local_file": "data/insideairbnb/calendar_2026-09-16.csv.gz",
+    "bytes": 68094073,
+    "sha256": "a3b71a9c4e6468a0bdaf0623e5a9b84fb770984f1a523d80fcc0808705d00ca3",
+    "retrieval": "2026-11-10"
+  }
+]

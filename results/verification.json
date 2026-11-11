@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Panel listing-month keys are unique.",
+    "All five lag features match earlier targets, including validation/test boundaries.",
+    "Month, three-month and annual revenue sums reconcile; unknown costs leave cash flow unavailable.",
+    "Independent arithmetic checks pass for costs, zero capacity, night budget and invalid inputs.",
+    "Price headline errors match independently recomputed held-out predictions.",
+    "Saved review model reproduces test error; paired listing-cluster uncertainty computed.",
+    "Historical predictors precede targets; missing follow-up stays missing; temporal MAE, RMSE and total bias match saved predictions."
+  ]
+}

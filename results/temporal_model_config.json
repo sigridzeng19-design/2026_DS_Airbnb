@@ -1,0 +1,76 @@
+{
+  "validation_candidates": [
+    {
+      "leaves": 8,
+      "validation_mae_reviews": 0.9823916667215293
+    },
+    {
+      "leaves": 20,
+      "validation_mae_reviews": 0.9819268598044378
+    }
+  ],
+  "selected_leaves": 20,
+  "train_month": "2026-02",
+  "validation_month": "2026-05",
+  "test_month": "2026-07",
+  "features": {
+    "history": [
+      [
+        "reviews_30",
+        "reviews_90",
+        "reviews_365",
+        "reviews_total",
+        "days_since_last_review",
+        "days_since_first_review",
+        "capture_age_days"
+      ],
+      []
+    ],
+    "history_property": [
+      [
+        "reviews_30",
+        "reviews_90",
+        "reviews_365",
+        "reviews_total",
+        "days_since_last_review",
+        "days_since_first_review",
+        "capture_age_days",
+        "accommodates",
+        "bedrooms",
+        "beds",
+        "bathrooms_n",
+        "minimum_nights",
+        "superhost",
+        "review_scores_rating"
+      ],
+      [
+        "room_type"
+      ]
+    ],
+    "history_property_location": [
+      [
+        "reviews_30",
+        "reviews_90",
+        "reviews_365",
+        "reviews_total",
+        "days_since_last_review",
+        "days_since_first_review",
+        "capture_age_days",
+        "accommodates",
+        "bedrooms",
+        "beds",
+        "bathrooms_n",
+        "minimum_nights",
+        "superhost",
+        "review_scores_rating",
+        "latitude",
+        "longitude"
+      ],
+      [
+        "room_type",
+        "neighbourhood_cleansed"
+      ]
+    ]
+  },
+  "scope": "All source listing types with observed follow-up. Missing follow-up excluded from scoring, not set to zero."
+}
