@@ -7,8 +7,8 @@ Start with **Airbnb_Project.ipynb**. This English notebook includes the cleaning
 ## Open and run the notebook
 
 1. Clone this repository, or use GitHub’s **Code → Download ZIP** and extract it. Keep the notebook beside its `data`, `results`, `figures` and `models` folders.
-2. Open `airbnb_project/Airbnb_Project.ipynb` in Jupyter Notebook, JupyterLab or an editor with notebook support. Select a Python environment with the packages listed in `requirements.txt`.
-3. Choose **Restart Kernel and Run All**. Leave `REBUILD_INPUTS = False` to use the packaged analytical tables. The notebook's working directory must be the extracted `airbnb_project` folder.
+2. Open `Airbnb_Project.ipynb` in Jupyter Notebook, JupyterLab or an editor with notebook support. Select a Python environment with the packages listed in `requirements.txt`.
+3. Choose **Restart Kernel and Run All**. Leave `REBUILD_INPUTS = False` to use the packaged analytical tables. The notebook's working directory must be the repository root: the folder containing the notebook and its data directory.
 4. To repeat raw-file cleaning too, set `REBUILD_INPUTS = True`. Missing public files are downloaded when `DOWNLOAD_MISSING = True`. This requires internet access and several GB of disk space. September CSVs are downloaded into `data/raw` unless you configure another source directory. Existing raw files are reused without modification.
 
 An optional fresh environment can be created from the project directory:
